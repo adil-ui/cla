@@ -146,6 +146,7 @@ nav ul li a:hover{
     font-weight: bold;
     margin-top: 50px;
     border: none;
+    cursor: pointer;
 }
 .div-see-more{
     width: 100%;
@@ -200,6 +201,7 @@ nav ul li a:hover{
     color: white;
     border: none;
     padding: 18px 60px;
+    cursor: pointer;
 }
 /* ***********************************************       Customer     *********************************************************/
 
@@ -310,6 +312,7 @@ footer{
     border-radius: 50%;
     text-align: center;
     margin-right: 10px;
+    cursor: pointer;
 }
 .rss i{
     color: black;  
@@ -338,6 +341,7 @@ footer{
     font-size: 18px;
     font-weight: bolder;
     border-radius: 12px;
+    cursor: pointer;
 }
 .copyright{
     width: 100%;
