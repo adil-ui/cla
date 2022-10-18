@@ -1,0 +1,358 @@
+@font-face {
+    font-family: "Poppins";
+    src: url(font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Dosis";
+    src: url(font/Dosis-Regular.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+/* ****************************    header    ***********************/
+header{
+    height: 100vh;
+    background-image: url(images/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+}
+nav ul{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+nav ul li a:hover{
+   color: #51fe44;
+   transition: .5s;
+}
+.color-green{
+   color: #51fe44;
+}
+/* *************************************** section hero ********************************************/
+.hero{
+    display: flex;
+    align-items: center;
+    height: 85vh;
+}
+
+.hero_text{
+    color: white;
+    margin-right: 5%;
+}
+.hero_text h2{
+    font-size: 40px;
+}
+.hero_text h3{
+    font-size: 80px;
+}
+.hero_text p{
+    line-height: 1.5;
+    margin: 30px 0 60px;
+    font-weight: 500;
+}
+
+.hero_text button{
+    background-color: transparent;
+    padding: 16px 70px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-size: 17px;
+    border: 2px solid white;
+    color: white;
+    transition: 1s;
+}
+
+.hero_text button:hover{
+    background-color: #48ca95;
+    cursor: pointer;
+}
+/* ***********************************************       categorie     *********************************************************/
+.categorie{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px 0;
+}
+.categorie_div{
+    border: 1px solid #48ca95;
+    border-radius: 10px;
+    padding: 40px 35px;
+    text-align: center;
+    width: 30%;
+}
+.categorie_div h2{
+    margin: 20px 0;
+}
+.categorie_div p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 2;
+}
+
+
+/* ***********************************************       product     *********************************************************/
+
+.product{
+    background-color: #f1f1f1;
+    padding: 100px 0;
+}
+.product h2{
+    font-size: 40px;
+    width: 20%;
+    margin: auto;
+    border-bottom: 1px solid #48ca95;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.product_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: white;
+    padding: 100px 20px;
+}
+
+.product-div{
+    width: 28%;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.product-div button{
+    background-color: black;
+    color: white;
+    width: 60%;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 50px;
+    border: none;
+}
+.div-see-more{
+    width: 100%;
+    text-align: center;
+}
+.div-see-more .btn-see-more{
+    background-color: transparent;
+    border: 2px solid #48ca95;
+    padding: 20px 80px;
+    color: #48ca95;
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 50px;
+    cursor: pointer;
+}
+.product_container button:hover{
+   background-color: #48ca95;
+   color: white;
+   transition: 1s;
+
+}
+
+/* ***********************************************       Publicite     *********************************************************/
+
+.publicite{
+    background-color: #4f4aa6;
+    padding: 100px 0;
+}
+.publicite_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.publicite_text{
+    color: white;
+
+}
+.publicite_text h2{
+    font-family: Dosis;
+    font-size: 40px;
+    font-weight: 100;
+}
+.publicite_text h3{
+    font-family: Dosis;
+    font-size: 80px;
+    margin: 20px 0 50px;
+}
+.publicite_text button{
+    background-color: #48ca95;
+    font-family: Dosis;
+    font-size: 18px;
+    color: white;
+    border: none;
+    padding: 18px 60px;
+}
+/* ***********************************************       Customer     *********************************************************/
+
+.customer{
+    padding: 100px 0;
+}
+.customer h2{
+    width: 24%;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid #48ca95;
+    margin-bottom: 50px;
+}
+.customer_container{
+    width: 55%;
+    margin: auto;
+}
+.customer_container h3{
+    font-size: 30px;
+    margin: 20px 0;
+}
+.customer_container p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* ***********************************************       Contact     *********************************************************/
+
+.contact {
+    background-image: url(images/contact_g.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+}
+.contact_container{
+    width: 55%;
+    margin: auto;
+    border: 2px solid white;
+    padding: 80px 50px;
+    text-align: center;
+}
+.contact h2{
+    width: 20%;
+    color: white;
+    margin: auto;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
+}
+.contact_container input,textarea{
+    border: 2px solid white;
+    color: white;
+    background-color: transparent;
+    padding: 18px;
+    width: 100%;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+.contact_container ::-webkit-input-placeholder{
+    color: white;
+}
+.contact_container button{
+    background-color: #48ca95;
+    border: none;
+    padding: 20px 80px;
+    border-radius: 50px;
+    color: white;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* ***********************************************       footer     *********************************************************/
+
+footer{
+    background-image: url(images/footer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+.footer_container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    color: white;
+}
+.footer_container .footer_div:nth-child(3){
+    width: 12%;
+}
+.footer_div{
+    width: 20%;
+}
+.footer_div img{
+    margin-top: -30px;
+}
+.rss_container{
+    display: flex;
+    margin-top: 30px;
+}
+.rss_container .rss{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    padding-top: 11px;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+}
+.rss i{
+    color: black;  
+    font-size: 24px;
+}
+.footer_div h2{
+    margin-bottom: 20px;
+}
+.footer_div p{
+    line-height: 1.8;
+}
+.footer_div input{
+    width: 100%;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 12px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border: none;
+}
+
+.footer_div button{
+    background-color: #48ca95;
+    padding: 12px 30px;
+    color: white;
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 12px;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid white;
+    margin-top: 100px;
+}
+.copyright p{
+    font-size: 18px;
+}
+
+
+
+.container{
+    width: 80%;
+    margin: auto;
+}
